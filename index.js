@@ -1,8 +1,3 @@
-// =================================================================
-// Pengecekan Akun Pi Network dengan Filter Duplikat
-// Server: http://4.194.35.14:31401
-// =================================================================
-
 const fs = require('fs');
 const axios = require('axios');
 const bip39 = require('bip39');
@@ -10,8 +5,8 @@ const edHd = require('ed25519-hd-key');
 const StellarSdk = require('stellar-sdk');
 
 // Ganti dengan info Telegram kamu
-const TELEGRAM_BOT_TOKEN = '7545188050:AAHNB4_zrnLKo5t4MIL2m-AaYMVnlLc_YAM';
-const TELEGRAM_CHAT_ID = '7890743177';
+const TELEGRAM_BOT_TOKEN = 'TOKEN_BOT';
+const TELEGRAM_CHAT_ID = 'ID_TELEGRAM';
 
 // Gunakan server Pi Network milikmu
 const server = new StellarSdk.Server('http://4.194.35.14:31401');
